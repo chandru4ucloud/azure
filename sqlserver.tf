@@ -23,9 +23,9 @@ resource "azurerm_mssql_database" "test" {
   max_size_gb    = 1
    sku_name       = "S0"
  
-
+#changes from github
   tags = {
-    foo = "bar"
+    foo = "cloud"
   }
 
 }
