@@ -26,7 +26,7 @@ resource "azurerm_mssql_database" "test" {
  
 #changes from github
   tags = {
-    foo = "supercloud"
+    foo = "azurecloud"
   }
 
 }
